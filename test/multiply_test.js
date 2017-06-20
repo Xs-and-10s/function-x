@@ -1,15 +1,7 @@
-require("mocha-testcheck").install();
+import { mochat } from "./mochat";
 const { expect } = require("chai");
 
-import { add } from "../lib/utils";
 import { multiply } from "../";
-import { strictEqual } from "assert";
-
-describe("add", () => {
-  check.it("is commutative", gen.int, gen.int, (A, B) => {
-    expect(add(A, B)).to.equal(add(B, A));
-  });
-});
 
 describe("multiply", () => {
   check.it("is commutative", gen.int, gen.int, (A, B) => {
