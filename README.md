@@ -1,6 +1,13 @@
 ### A collection of functions on top of sanctuary, covered by Property Based Testing
 
-> to build
+
+##### example usage
+```js
+import { multiply } from 'function-x'
+```
+
+
+##### to build
 ```sh
 yarn install
 ```
